@@ -9,6 +9,9 @@ module.exports = {
         "wisteria": "#b49fccff",
         "misty-rose": "#ead7d7ff",
       },
+      backgroundImage: {
+      'hero-pattern': 'url(./assets/heroImage.png)',
+      },
     },
   },
   plugins: [],
