@@ -1,23 +1,19 @@
 import React, { useEffect, useState } from "react";
 
-
 export default function Portfolio() {
-  const [project, setProject] = useState([]);
+  // const [project, setProject] = useState([]);
 
-  useEffect(() => {
-    fetch("./database.json", {
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => projects(data));
-  }, []);
-
-  function projects(data) {
-    setProject(data);
-    console.log(data);
-  }
+  // useEffect(() => {
+  //   fetch("./database.json")
+  //     .then((response) => {
+  //       if (response.ok) {
+  //         return response.json();
+  //       }
+  //     })
+  //     .then((data) => {
+  //       setProject(data);
+  //     });
+  // }, []);
 
   return (
     <section className="mx-8">
@@ -25,80 +21,76 @@ export default function Portfolio() {
         Portfólio
       </h2>
       <div className="flex justify-between">
-      <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
-        <a
-          href="#"
-          aria-label="link para o site da Agatha Christie"
-        >
-          <div>
-            <img
-              className="w-80"
-              src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
-              alt="imagem do site da Agatha Christie"
-            />
-            <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
+        
+        <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+          <a href="#" aria-label="link para o site da Agatha Christie">
+            <div>
+              <img
+                className="w-80"
+                src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
+                alt="imagem do site da Agatha Christie"
+              />
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
               Desafio do Dia das Mulheres da FCamara
-            </h2>
-          </div>
-        </a>
-      </div>
+              </h2>
+            </div>
+          </a>
+        </div>
 
-      <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
-        <a
-          href="https://jessmotta.github.io/agathaChristie_challengeFCamara/"
-          aria-label="link para o site da Agatha Christie"
-        >
-          <div>
-            <img
-              className="w-80"
-              src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
-              alt="imagem do site da Agatha Christie"
-            />
-            <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
-              Desafio do Dia das Mulheres da FCamara
-            </h2>
-          </div>
-        </a>
-      </div>
+        <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+          <a
+            href="#"
+            aria-label="link para o site do Jogo da Velha"
+          >
+            <div>
+              <img
+                className="w-80"
+                src="https://i.postimg.cc/NGztXqtF/jogo-velha.png"
+                alt="imagem do site do Jogo da Velha"
+              />
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
+                Site do Jogo da Velha
+              </h2>
+            </div>
+          </a>
+        </div>
 
-      <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
-        <a
-          href="https://jessmotta.github.io/agathaChristie_challengeFCamara/"
-          aria-label="link para o site da Agatha Christie"
-        >
-          <div>
-            <img
-              className="w-80"
-              src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
-              alt="imagem do site da Agatha Christie"
-            />
-            <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
-              Desafio do Dia das Mulheres da FCamara
-            </h2>
-          </div>
-        </a>
-      </div>
+        <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+          <a
+            href="https://jessmotta.github.io/technicalshare.frontend/"
+            aria-label="link para o site da Agatha Christie"
+          >
+            <div>
+              <img
+                className="w-80"
+                src="https://i.postimg.cc/pdCpwDcp/technical-share.png"
+                alt="imagem do site da Agatha Christie"
+              />
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
+                Technical Share Hackathon da FCamara
+              </h2>
+            </div>
+          </a>
+        </div>
 
-      <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
-        <a
-          href="https://jessmotta.github.io/agathaChristie_challengeFCamara/"
-          aria-label="link para o site da Agatha Christie"
-        >
-          <div>
-            <img
-              className="w-80"
-              src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
-              alt="imagem do site da Agatha Christie"
-            />
-            <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
-              Desafio do Dia das Mulheres da FCamara
-            </h2>
-          </div>
-        </a>
+        <div className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+          <a
+            href="https://feedback-widget-frontend-theta.vercel.app/"
+            aria-label="link para o site da Agatha Christie"
+          >
+            <div>
+              <img
+                className="w-80"
+                src="https://i.postimg.cc/fTvyt7Z5/feedwidget.png"
+                alt="imagem do site da Agatha Christie"
+              />
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
+                Evento NLW Return Da Rocketseat
+              </h2>
+            </div>
+          </a>
+        </div>
       </div>
-
-      </div>
-    
     </section>
   );
 }

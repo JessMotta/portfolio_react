@@ -15,10 +15,11 @@ export default function Github() {
       .get("https://api.github.com/users/jessmotta", {})
       .then(function (response) {
         setUserGit(response.data);
-        console.log(response);
+        // console.log(response);/*  */
       })
       .catch(function (error) {
-        console.log(error);
+        // console.log(error);
+
       });
   }
 
@@ -27,10 +28,10 @@ export default function Github() {
       .get("https://api.github.com/users/JessMotta/repos", {})
       .then(function (response) {
         setProjects(response.data);
-        console.log(response);
+        // console.log(response);
       })
       .catch(function (error) {
-        console.log(error);
+        // console.log(error);
       });
   }
 

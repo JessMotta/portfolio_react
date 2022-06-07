@@ -1,16 +1,12 @@
 {
-    "portfolio":[
-        {
-            "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
-            "title": "Desafio do Dia das Mulheres da FCamara"        
-        },
-        {
-            "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
-            "title": "Desafio do Dia das Mulheres da FCamara"        
-        },
-        {
-            "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
-            "title": "Desafio do Dia das Mulheres da FCamara"        
-        }
-    ]
+  "portfolio": [
+    {
+      "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
+      "title": "Teste"
+    },
+    {
+        "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
+        "title": "Teste 2"
+      }
+  ]
 }
