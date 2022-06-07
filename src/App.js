@@ -1,9 +1,12 @@
+import "./global.css"
 import Header from "./components/Header";
 import Hero from "./components/Hero"
 import About from "./components/About"
+// import Portfolio from "./components/Portfolio";
+import Github from "./components/Github";
+import Footer from "./components/Footer";
 
 
-import "./global.css"
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Header />
       <Hero/>
       <About/>
+      {/* <Portfolio/> */}
+      <Github/>
+      <Footer/>
     </>
   );
 }

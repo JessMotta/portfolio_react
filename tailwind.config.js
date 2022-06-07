@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
       'hero-pattern': 'url(./heroImage.png)',
+      'github-section': 'url(./githubImage.png)',
       },
     },
   },
