@@ -10,7 +10,7 @@ module.exports = {
         "misty-rose": "#ead7d7ff",
       },
       backgroundImage: {
-      'hero-pattern': 'url(./assets/heroImage.png)',
+      'hero-pattern': 'url(./heroImage.png)',
       },
     },
   },
