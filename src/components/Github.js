@@ -36,7 +36,7 @@ export default function Github() {
   }
 
   return (
-    <section className="bg-github-section flex flex-col justify-evenly my-40">
+    <section className="bg-github-section bg-cover flex flex-col justify-evenly my-40">
       <h2 className=" text-misty-rose text-4xl font-bold text-center pt-10">
         Github
       </h2>
