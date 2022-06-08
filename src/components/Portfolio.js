@@ -16,14 +16,14 @@ export default function Portfolio() {
   // }, []);
 
   return (
-    <section className="mx-8 mb-20">
+    <section id="portfolio" className="mx-8 mb-20">
       <h2 className="my-40 text-english-violet text-4xl font-bold text-center">
         Portfólio
       </h2>
       <div className="flex justify-between max-w-8xl">
         
-        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg">
-          <a href="#" aria-label="link para o site da Agatha Christie">
+        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
+          <a href="https://jessmotta.github.io/agathaChristie_challengeFCamara/" aria-label="link para o site da Agatha Christie">
             <div>
               <img
                 className="w-80"
@@ -37,9 +37,9 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
           <a
-            href="#"
+            href="https://jessmotta.github.io/jogoDaVelha/"
             aria-label="link para o site do Jogo da Velha"
           >
             <div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
           <a
             href="https://jessmotta.github.io/technicalshare.frontend/"
             aria-label="link para o site da Agatha Christie"
@@ -64,7 +64,7 @@ export default function Portfolio() {
               <img
                 className="w-80"
                 src="https://i.postimg.cc/pdCpwDcp/technical-share.png"
-                alt="imagem do site da Agatha Christie"
+                alt="imagem do site da Technical Share"
               />
               <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
                 Technical Share Hackathon da FCamara
@@ -73,7 +73,7 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg">
+        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
           <a
             href="https://feedback-widget-frontend-theta.vercel.app/"
             aria-label="link para o site da Agatha Christie"
@@ -82,7 +82,7 @@ export default function Portfolio() {
               <img
                 className="w-80"
                 src="https://i.postimg.cc/fTvyt7Z5/feedwidget.png"
-                alt="imagem do site da Agatha Christie"
+                alt="imagem do Feedwidget"
               />
               <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
                 Evento NLW Return Da Rocketseat

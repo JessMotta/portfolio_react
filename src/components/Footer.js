@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-english-violet text-white h-50 flex flex-col justify-center">
+    <footer id="footer" className="bg-english-violet text-white h-50 flex flex-col justify-center">
       <h3 className="text-center font-bold text-2xl pt-8">
         Você pode se conectar comigo através das minhas redes sociais!
       </h3>
@@ -17,7 +17,7 @@ export default function Footer() {
           <i class="fa-brands fa-linkedin fa-2xl"></i>
         </a>
       </div>
-      <p className="text-center mt-8 mb-4">Todos os direitos reservados. Desenvolvido por Jéssica Motta</p>
+      <p className="text-center mt-8 mb-4"> &copy; Todos os direitos reservados. Desenvolvido por Jéssica Motta.</p>
     </footer>
   );
 }

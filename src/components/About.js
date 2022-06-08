@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="flex justify-evenly h-full my-5">
+    <section id="about" className="flex justify-evenly h-full my-5">
       <img src="./assets/aboutImage.png" alt="" className="w-96"></img>
 
       <div className="w-96 flex flex-col justify-start">
