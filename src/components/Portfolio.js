@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 export default function Portfolio() {
   // const [project, setProject] = useState([]);
@@ -17,13 +17,13 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className="mx-8 mb-20">
-      <h2 className="my-40 text-english-violet text-4xl font-bold text-center">
+      <h2 className="my-40 text-english-violet text-4xl font-bold text-center md:mb-20">
         Portfólio
       </h2>
-      <div className="flex justify-between max-w-8xl">
+      <div className="flex justify-between flex-wrap mx-auto space-y-4 md:space-y-0 lg:max-w-8xl">
         
-        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
-          <a href="https://jessmotta.github.io/agathaChristie_challengeFCamara/" aria-label="link para o site da Agatha Christie">
+        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 h-64 md:mb-10 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
+          <a href="https://jessmotta.github.io/agathaChristie_FCamara/" aria-label="link para o site da Agatha Christie">
             <div>
               <img
                 className="w-80"
@@ -37,7 +37,7 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
+        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 h-64 md:mb-10  bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
           <a
             href="https://jessmotta.github.io/jogoDaVelha/"
             aria-label="link para o site do Jogo da Velha"
@@ -55,10 +55,10 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
+        <div data-aos="fade-up" data-aos-duration="2000" className="w-80 h-64 md:mb-10 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
           <a
             href="https://jessmotta.github.io/technicalshare.frontend/"
-            aria-label="link para o site da Agatha Christie"
+            aria-label="link para o site da Technical Share"
           >
             <div>
               <img
@@ -73,7 +73,7 @@ export default function Portfolio() {
           </a>
         </div>
 
-        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-150">
+        <div data-aos="fade-down" data-aos-duration="2000" className="w-80 h-64 md:mb-10 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
           <a
             href="https://feedback-widget-frontend-theta.vercel.app/"
             aria-label="link para o site da Agatha Christie"

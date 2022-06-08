@@ -2,10 +2,12 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="flex justify-evenly h-full my-5">
-      <img src="./assets/aboutImage.png" alt="" className="w-96"></img>
+    <section id="about" className="h-max my-5 ">
+      <div className="flex items-center flex-col mx-10 md:flex-row md:justify-evenly md:mx-0">
+      <img src="./assets/aboutImage.png" alt="" className="lg:w-96 md:w-80"></img>
+      
 
-      <div className="w-96 flex flex-col justify-start">
+      <div className=" lg:w-96 md:w-64 flex flex-col justify-start">
         <h2 className="mt-8 text-english-violet text-4xl font-bold">
           Sobre mim
         </h2>
@@ -22,6 +24,7 @@ export default function About() {
         >
           Download do CV
         </a>
+      </div>
       </div>
     </section>
   );
