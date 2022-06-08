@@ -16,7 +16,7 @@ export default function Portfolio() {
   // }, []);
 
   return (
-    <section className="mx-8">
+    <section className="mx-8 mb-20">
       <h2 className="my-40 text-english-violet text-4xl font-bold text-center">
         Portfólio
       </h2>

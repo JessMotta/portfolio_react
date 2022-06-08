@@ -8,6 +8,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Github from "./components/Github";
 import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 function App() {
   useEffect(() => {
@@ -21,8 +22,9 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Portfolio />
+        <Skills/>
         <Github />
+        <Portfolio />
       </main>
       <Footer />
     </>
