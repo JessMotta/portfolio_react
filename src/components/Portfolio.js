@@ -22,9 +22,9 @@ export default function Portfolio() {
       </h2>
 
       
-      <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
+      <div className="flex justify-between flex-wrap mx-2">
         {project.map((proj,index) =>(
-          <div key={index} className="w-80 h-auto bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
+          <div key={index} className="w-80 h-auto mt-4 bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
           <div className="lg:w-1/2 lg:mr-2">
               <img
                 className="w-80 lg:h-full"
@@ -32,12 +32,15 @@ export default function Portfolio() {
                 alt={proj.image.alt}
               />
           </div>
-          <div className="lg:w-1/2">
-              <h2 className="text-misty-rose text-center text-xl font-bold mt-3 lg:text-2xl">
+          <div className="grid grid-cols-1 gap-4 content-between	">
+           
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-8 lg:text-2xl">
               {proj.title}
               </h2>
-              <p className="text-white font-xl mt-4">{proj.description}</p>
-              <div className="flex justify-between items-end mt-8 text-misty-rose text-xl">
+              <p className="text-white font-xl mt-4 h-max">{proj.description}</p>
+
+        
+            <div className=" text-misty-rose text-xl mt-4 flex justify-between place-items-end">
                 <div className="hover:text-white">
                 <i class="fa-solid fa-link "></i>
                 <a className="ml-2 font-bold" href={proj.site.link} aria-label={proj.site.label}>Site</a>
@@ -45,9 +48,10 @@ export default function Portfolio() {
                 <div className="hover:text-white">
                 <i class="fa-solid fa-code-branch"></i>
                 <a className="ml-2 font-bold" href={proj.repository.link} aria-label={proj.repository.label}>Repositório</a>
-                </div>
-              </div> 
+                </div>            
             </div>
+            </div>
+
         </div>
         ))}
         
