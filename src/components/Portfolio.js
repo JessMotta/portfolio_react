@@ -24,7 +24,7 @@ export default function Portfolio() {
       
       <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
         {project.map((proj,index) =>(
-          <div key={index} className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
+          <div key={index} className="w-80 h-auto bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
           <div className="lg:w-1/2 lg:mr-2">
               <img
                 className="w-80 lg:h-full"

@@ -9,7 +9,6 @@ import Portfolio from "./components/Portfolio";
 import Github from "./components/Github";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-import Teste from "./components/Teste";
 
 function App() {
   useEffect(() => {
