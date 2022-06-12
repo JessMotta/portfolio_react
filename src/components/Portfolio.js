@@ -20,9 +20,9 @@ export default function Portfolio() {
       <h2 className="my-40 text-english-violet text-4xl font-bold text-center md:mb-20">
         Portfólio
       </h2>
-      <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-0">
+      <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
         
-        <div className="w-80 h-auto md:mb-10 bg-english-violet py-5 px-3 rounded-lg">
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4">
           <div>
               <img
                 className="w-80"
@@ -34,7 +34,7 @@ export default function Portfolio() {
               </h2>
               <p className="text-white font-xl mt-4">Esse projeto ganhou prêmio na comunidade da Orange Juice (FCamara), como um dos melhores projetos realizados para o dia das mulheres. Ele foi desenvolvido utilizando HTML, CSS e JavaScript. Na tela principal há uma breve resumo da vida e algumas obras de Agatha, e ao final há um botão onde o usuário é redirecionado para uma tela de quiz, onde encontrará 10 perguntas relacionadas ao que foi apresentado na primeira tela.</p>
               </div>
-              <div className="flex justify-between mt-8 text-misty-rose text-xl">
+              <div className="flex justify-between items-end mt-8 text-misty-rose text-xl">
                 <div className="hover:text-white">
                 <i class="fa-solid fa-link "></i>
                 <a className="ml-2 font-bold" href="https://jessmotta.github.io/agathaChristie_FCamara/" aria-label="link para o site da Agatha Christie">Site</a>
@@ -47,7 +47,7 @@ export default function Portfolio() {
         </div>
   
 
-        <div className="w-80 h-auto md:mb-10  bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4">
          <div>
               <img
                 className="w-80"
@@ -58,8 +58,8 @@ export default function Portfolio() {
                 Site do Jogo da Velha
               </h2>
               <p className="text-white font-xl mt-4">Para esse projeto foi utilizado como base o projeto do Jogo da Velha no curso do Programador BR, e foram implementadas outras funcionalidades como, colocar nomes dos jogadores, adicionar contagem de vitórias para cada jogador e um botão de resete para zerar essa pontuação, botão para reiniciar o jogo sem perder a pontuação dos jogadores e mensagem para informar o empate.</p>
-           </div>
-            <div className="flex justify-between mt-8 text-misty-rose text-xl">
+             
+              <div className="flex justify-between text-misty-rose text-xl">
                 <div className="hover:text-white">
                 <i class="fa-solid fa-link "></i>
                 <a className="ml-2 font-bold" href="https://jessmotta.github.io/jogoDaVelha/"aria-label="link para o site do Jogo da Velha">Site</a>
@@ -68,10 +68,12 @@ export default function Portfolio() {
                 <i class="fa-solid fa-code-branch"></i>
                 <a className="ml-2 font-bold" href="https://github.com/JessMotta/jogoDaVelha" aria-label="link para o repositorio do jogo da Velha">Repositório</a>
                 </div>
-            </div>
+              </div>
+           
+           </div>
         </div>
 
-        <div className="w-80 h-auto md:mb-10 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg">
           <div>
               <img
                 className="w-80"
@@ -96,7 +98,7 @@ export default function Portfolio() {
             </div>           
         </div>
 
-        <div className="w-80 h-auto md:mb-10 bg-english-violet py-5 px-3 rounded-lg hover:bg-[#8D5C8B] transition ease-in-out duration-100">
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg">
         <div>
               <img
                 className="w-80"
