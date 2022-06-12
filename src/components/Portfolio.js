@@ -22,21 +22,21 @@ export default function Portfolio() {
       </h2>
 
       
-      <div className="flex justify-between flex-wrap mx-2">
+      <div className="flex justify-between flex-wrap mx-2 lg:justify-around">
         {project.map((proj,index) =>(
-          <div key={index} className="grid grid-cols-1 gap-4 content-between w-80 h-auto mt-4 bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:">
-          <div className="lg:w-1/2 lg:mr-2">
+          <div key={index} className="grid grid-cols-1 gap-4 content-between w-80 h-auto mt-4 bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:w-2/5 lg:content-center">
+          <div className='text-center'>
               <img
-                className="w-80 lg:h-full"
+                className="w-80 lg:h-max lg:mx-auto"
                 src={proj.image.link}
                 alt={proj.image.alt}
               />
           </div>
-          <div className="lg:w-1/2">
-              <h2 className="text-misty-rose text-center text-xl font-bold mt-8 place-self-start lg:text-2xl">
+          <div>
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-8  lg:text-2xl">
               {proj.title}
               </h2>
-              <p className="text-white font-xl mt-4">{proj.description}</p>
+              <p className="text-white mt-4 lg:text-lg">{proj.description}</p>
 
         </div>
             <div className=" text-misty-rose text-xl mt-4 flex justify-between">
