@@ -1,36 +1,38 @@
-import React from "react";
+import React, {useState, useEffect} from 'react'
 
 export default function Portfolio() {
-  // const [project, setProject] = useState([]);
+  const [project, setProject] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("./database.json")
-  //     .then((response) => {
-  //       if (response.ok) {
-  //         return response.json();
-  //       }
-  //     })
-  //     .then((data) => {
-  //       setProject(data);
-  //     });
-  // }, []);
-
+  useEffect(() => {
+    fetch("./database.json", {
+        headers:{
+            Accept: "application/json"
+        }
+    }).then(res => res.json())
+    .then(res => {
+        setProject(res.data)
+         })
+       
+   }, []);
+   
   return (
     <section id="portfolio" className="mb-20">
       <h2 className="my-40 text-english-violet text-4xl font-bold text-center md:mb-20">
         Portfólio
       </h2>
-      <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
+
+      
+     {/*  <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
         
         <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 lg:mr-2">
               <img
-                className="w-80 lg:w-4/5"
+                className="w-80 lg:h-full"
                 src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
                 alt="imagem do site da Agatha Christie"
               />
-              </div>
-              <div className="lg:w-1/2">
+          </div>
+          <div className="lg:w-1/2">
               <h2 className="text-misty-rose text-center text-xl font-bold mt-3 lg:text-2xl">
               Desafio do Dia das Mulheres da FCamara
               </h2>
@@ -49,13 +51,15 @@ export default function Portfolio() {
         </div>
   
 
-        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4">
-         <div>
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
+         <div className="lg:w-1/2 lg:mr-2">
               <img
-                className="w-80"
+                className="w-80 lg:h-full"
                 src="https://i.postimg.cc/NGztXqtF/jogo-velha.png"
                 alt="imagem do site do Jogo da Velha"
               />
+          </div>
+          <div className="lg:w-1/2">
               <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
                 Site do Jogo da Velha
               </h2>
@@ -71,8 +75,8 @@ export default function Portfolio() {
                 <a className="ml-2 font-bold" href="https://github.com/JessMotta/jogoDaVelha" aria-label="link para o repositorio do jogo da Velha">Repositório</a>
                 </div>
               </div>
-           
            </div>
+       
         </div>
 
         <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg">
@@ -123,7 +127,7 @@ export default function Portfolio() {
                 </div>
             </div>                
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

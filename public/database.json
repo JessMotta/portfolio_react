@@ -1,12 +1,55 @@
 {
-  "portfolio": [
+  "data": [
     {
-      "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
-      "title": "Teste"
+      "image": {"link":"https://i.postimg.cc/Hx8HLBNj/agatha-christie.png",
+        "alt": "imagem do site da Agatha Christie"
+        },
+      "title": "Desafio do Dia das Mulheres da FCamara",
+      "description": "Esse projeto ganhou prêmio na comunidade da Orange Juice (FCamara), como um dos melhores projetos realizados para o dia das mulheres. Ele foi desenvolvido utilizando HTML, CSS e JavaScript. Na tela principal há uma breve resumo da vida e algumas obras de Agatha, e ao final há um botão onde o usuário é redirecionado para uma tela de quiz, onde encontrará 10 perguntas relacionadas ao que foi apresentado na primeira tela.",
+      "site": {"link": "https://jessmotta.github.io/agathaChristie_FCamara/",
+      "arial-label": "link para o site da Agatha Christie"
+      },
+      "repository": {"link": "https://github.com/JessMotta/agathaChristie_FCamara",
+      "arial-label": "link para o repositório da Agatha Christie"
+      }
     },
     {
-        "image": "https://jessmotta.github.io/agathaChristie_challengeFCamara/",
-        "title": "Teste 2"
+      "image": {"link":"https://i.postimg.cc/NGztXqtF/jogo-velha.png",
+        "alt": "imagem do site do Jogo da Velha"
+        },
+      "title": "Site do Jogo da Velha",
+      "description": "Para esse projeto foi utilizado como base o projeto do Jogo da Velha no curso do Programador BR, e foram implementadas outras funcionalidades como, colocar nomes dos jogadores, adicionar contagem de vitórias para cada jogador e um botão de resete para zerar essa pontuação, botão para reiniciar o jogo sem perder a pontuação dos jogadores e mensagem para informar o empate.",
+      "site": {"link": "https://jessmotta.github.io/jogoDaVelha/",
+        "arial-label": "link para o site do Jogo da Velha"
+        },
+        "repository": {"link": "https://github.com/JessMotta/jogoDaVelha",
+        "arial-label": "link para o repositório do jogo da Velha"
+        }
+      },
+      {
+        "image": {"link":"https://i.postimg.cc/pdCpwDcp/technical-share.png",
+          "alt": "imagem do site da Technical Share"
+          },
+        "title": " Technical Share Hackathon da FCamara",
+        "description": "É uma plataforma onde pessoas da tecnologia com conhecimentos diversos estão disponíveis para tirar dúvidas sobre a área ou para orientar no aprendizado de novas habilidades.Foi desenvolvido durante o Hackathon do Programa de Formação da FCamara. Nesse projeto também foi realizado o Back-end da plataforma.",
+        "site": {"link": "https://jessmotta.github.io/technicalshare.frontend/",
+          "arial-label": "link para o site da Technical Share"
+          },
+          "repository": {"link": "https://github.com/JessMotta/technicalshare.frontend",
+          "arial-label": "link para o repositório da Technical Share"
+          }
+      },
+      { "image": {"link":"https://i.postimg.cc/fTvyt7Z5/feedwidget.png",
+        "alt": "imagem do Feedback Widget"
+        },
+      "title": "Aplicação desenvolvida no Evento NLW Return Da Rocketseat",
+      "description": "O Feedback Widget foi desenvolvido durante o evento da NLW Return da Rocketseat. Esse widget foi construído utilizando React, TypeScript e Tailwind CSS no Front-end, no Back-end foi utilizado o TypeScript, Node.js, Prisma e o para teste o Jest. Além disso foi construída também a versão mobile utilizando o React Native com TypeScript e Tailwind CSS.",
+      "site": {"link": "https://feedback-widget-frontend-theta.vercel.app/",
+        "arial-label": "link para o site do Feedback Widget"
+        },
+        "repository": {"link": "https://github.com/JessMotta/FeedbackWidget.frontend",
+        "arial-label": "link para o repositório  do Feedback Widget"
+        }
       }
   ]
 }
