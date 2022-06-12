@@ -26,7 +26,6 @@ function App() {
         <Skills/>
         <Github />
         <Portfolio />
-        <Teste/>
       </main>
       <Footer />
     </>
