@@ -22,18 +22,19 @@ export default function Portfolio() {
       </h2>
       <div className="flex justify-between flex-wrap mx-2 space-y-4 md:space-y-px">
         
-        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4">
-          <div>
+        <div className="w-80 h-[612px] bg-english-violet py-5 px-3 rounded-lg md:mb-4 lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:h-fit">
+          <div className="lg:w-1/2">
               <img
-                className="w-80"
+                className="w-80 lg:w-4/5"
                 src="https://i.postimg.cc/Hx8HLBNj/agatha-christie.png"
                 alt="imagem do site da Agatha Christie"
               />
-              <h2 className="text-misty-rose text-center text-xl font-bold mt-3">
+              </div>
+              <div className="lg:w-1/2">
+              <h2 className="text-misty-rose text-center text-xl font-bold mt-3 lg:text-2xl">
               Desafio do Dia das Mulheres da FCamara
               </h2>
               <p className="text-white font-xl mt-4">Esse projeto ganhou prêmio na comunidade da Orange Juice (FCamara), como um dos melhores projetos realizados para o dia das mulheres. Ele foi desenvolvido utilizando HTML, CSS e JavaScript. Na tela principal há uma breve resumo da vida e algumas obras de Agatha, e ao final há um botão onde o usuário é redirecionado para uma tela de quiz, onde encontrará 10 perguntas relacionadas ao que foi apresentado na primeira tela.</p>
-              </div>
               <div className="flex justify-between items-end mt-8 text-misty-rose text-xl">
                 <div className="hover:text-white">
                 <i class="fa-solid fa-link "></i>
@@ -44,6 +45,7 @@ export default function Portfolio() {
                 <a className="ml-2 font-bold" href="https://github.com/JessMotta/agathaChristie_FCamara" aria-label="link para o repositorio da Agatha Christie">Repositório</a>
                 </div>
               </div> 
+            </div>
         </div>
   
 
