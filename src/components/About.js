@@ -12,8 +12,8 @@ export default function About() {
           Sobre mim
         </h2>
         <p className="mt-4 text-xl">
-          Oi, sou Jéssica Motta, sou Desenvolvedora Front-end com conhecimentos
-          de UX/UI Design, Design Responsivo e Acessibilidade. Realizo a
+          Oi, sou Jéssica Motta, sou Desenvolvedora Front-end e aplico
+           UX/UI Design, Design Responsivo e Acessibilidade nos projetos. Além disso, realizo a
           prototipação do projeto no Figma antes da aprovação para a produção!
         </p>
 

@@ -113,10 +113,10 @@ export default function Portfolio() {
               <p className="text-white font-xl mt-4">O Feedback Widget foi desenvolvido durante o evento da NLW Return da Rocketseat. Esse widget foi construído utilizando React, TypeScript e Tailwind CSS no Front-end, no Back-end foi utilizado o TypeScript, Node.js, Prisma e o para teste o Jest. Além disso foi construída também a versão mobile utilizando o React Native com TypeScript e Tailwind CSS. </p>
           </div>
             <div className="flex justify-between mt-8 text-misty-rose text-xl">
-                {/* <div className="hover:text-white">
+                <div className="hover:text-white">
                 <i class="fa-solid fa-link "></i>
-                <a className="ml-2 font-bold" ref="https://feedback-widget-frontend-theta.vercel.app/" aria-label="link para o site do Feedback Widget">Site</a>
-                </div> */}
+                <a className="ml-2 font-bold" href="https://feedback-widget-frontend-theta.vercel.app/" aria-label="link para o site do Feedback Widget">Site</a>
+                </div>
                 <div>
                 <i class="fa-solid fa-code-branch"></i>
                 <a className="ml-2 font-bold" href="https://github.com/JessMotta/FeedbackWidget.frontend" aria-label="link para o repositorio  do Feedback Widget">Repositório</a>
