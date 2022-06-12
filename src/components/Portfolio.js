@@ -17,7 +17,7 @@ export default function Portfolio() {
    
   return (
     <section id="portfolio" className="mb-20">
-      <h2 className="my-40 text-english-violet text-4xl font-bold text-center md:mb-20">
+      <h2 className="mt-40 mb-20 text-english-violet text-4xl font-bold text-center">
         Portfólio
       </h2>
 
